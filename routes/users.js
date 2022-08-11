@@ -9,5 +9,8 @@ router.get('/', function (req, res, next) {
 router.get('/hello', function (req, res, next) {
   res.send('Running Perfectly pull');
 });
+router.get('/hello/world', function (req, res, next) {
+  res.send('Hello World');
+});
 
 module.exports = router;
