@@ -7,7 +7,7 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/hello', function (req, res, next) {
-  res.send('Running Perfectly Main');
+  res.send('Running Perfectly Now');
 });
 
 module.exports = router;
